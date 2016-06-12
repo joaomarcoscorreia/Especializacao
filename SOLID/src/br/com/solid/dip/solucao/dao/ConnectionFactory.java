@@ -1,0 +1,23 @@
+package br.com.solid.dip.solucao.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import br.com.solid.dip.solucao.interfaces.IConnection;
+
+public class ConnectionFactory implements IConnection {
+
+	@Override
+	public final Connection createConnection() throws SQLException {
+		String url = "jdbc:mysql://localhost:3306/Cadastro"; //Nome da base de dados
+		String user = "user"; //nome do usuário do MySQL
+		String password = "password"; //senha do MySQL
+		
+		Connection conexao = null;
+		conexao = DriverManager.getConnection(url, user, password);
+		
+		return conexao;
+	}
+
+}

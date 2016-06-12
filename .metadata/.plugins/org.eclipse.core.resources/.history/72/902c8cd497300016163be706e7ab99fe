@@ -1,0 +1,8 @@
+package br.com.solid.isp;
+
+public interface IDAOPessoa {
+
+	public void validarDados();
+	public void incluir();
+	public void enviarEmail();
+}

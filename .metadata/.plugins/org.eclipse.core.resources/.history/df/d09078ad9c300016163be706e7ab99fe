@@ -1,0 +1,12 @@
+package br.com.solid.dip.solucao.interfaces;
+
+import br.com.solid.dip.base.Pessoa;
+
+public interface IDAO {
+
+	void incluir(Pessoa pessoa);
+	void alterar();
+	void excluir();
+	Object consultarChavePrimaria();
+	Object consultar(String filtro);
+}

@@ -1,0 +1,10 @@
+package br.com.solid.dip.solucao.interfaces;
+
+public interface IDAO {
+
+	void incluir();
+	void alterar();
+	void excluir();
+	Object consultarChavePrimaria();
+	Object consultar(String filtro);
+}
