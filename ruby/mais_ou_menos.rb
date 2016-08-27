@@ -1,18 +1,18 @@
-puts "Usuario bem vindo ao jogo:"
+def da_boas_vindas
+	puts "Usuario bem vindo ao jogo:"
+	puts "Qual é seu nome?"
+	nome = gets
+	puts "Começaremos o jogo " + nome
+end
 
-puts "Qual é seu nome?"
-
-nome = gets
-
-puts "Começaremos o jogo " + nome
+def jogo
 numero_secreto = 175
 chute = "0"
 i = 1
-
 quente = "Acima"
 frio = "Abaixo"
 
-while chute.to_i != numero_secreto
+while i<=3 && chute.to_i != numero_secreto
 	
 	puts "Tentativa " + i.to_s
 	puts "Digite um número:"
@@ -26,5 +26,13 @@ while chute.to_i != numero_secreto
 	i+=1
 end
 puts "\n \n"
-puts "Parabéns " + nome
-puts "Você acaba de adivinhar o número!!!"
+puts "O numero secreto era " + numero_secreto.to_s	
+puts "\n \n"
+end
+
+def teste
+	teste.new()
+end	
+
+da_boas_vindas
+jogo
