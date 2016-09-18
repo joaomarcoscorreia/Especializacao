@@ -1,5 +1,9 @@
 public class Teste{
 
+
+  public Teste(){
+
+  }
 	//static int i = 3;
 
 	public static void main(String[] a){
