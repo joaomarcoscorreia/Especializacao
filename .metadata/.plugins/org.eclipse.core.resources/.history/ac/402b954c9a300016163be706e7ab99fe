@@ -1,0 +1,16 @@
+package br.com.solid.dip.solucao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import br.com.solid.dip.solucao.interfaces.IConnection;
+
+public class ConnectionFactory implements IConnection {
+
+	@Override
+	public Connection createConnection() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

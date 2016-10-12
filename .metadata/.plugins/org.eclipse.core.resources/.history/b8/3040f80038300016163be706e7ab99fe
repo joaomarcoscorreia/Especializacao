@@ -1,0 +1,11 @@
+package br.com.solid.lsp.solucao;
+
+public class Retangulo {
+
+	public double Altura;
+	public double largura;
+	
+	public double CalularAREA(){
+		return Altura * largura;
+	}
+}

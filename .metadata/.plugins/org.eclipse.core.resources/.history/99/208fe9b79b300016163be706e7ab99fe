@@ -1,0 +1,5 @@
+package br.com.solid.dip.service;
+
+public class PessoaService {
+
+}

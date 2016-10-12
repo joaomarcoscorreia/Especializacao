@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<<<<<<< HEAD
+<listEntry value="/SOLID/src/br/com/solid/lsp/solucao/Teste.java"/>
+=======
 <listEntry value="/Teste/src/br/com/solid/Teste.java"/>
+>>>>>>> master
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<<<<<<< HEAD
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="br.com.solid.lsp.solucao.Teste"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SOLID"/>
+=======
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="br.com.solid.Teste"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Teste"/>
+>>>>>>> master
 </launchConfiguration>

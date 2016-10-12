@@ -1,0 +1,17 @@
+package br.com.solid.dip.base;
+
+import java.sql.Date;
+
+import br.com.solid.dip.TipoPessoaSRP;
+
+public class Pessoa {
+
+	private Integer id;
+	private String nome;
+	private String telefone;
+	private String email;
+	private Date dtCadastro;
+	private String cpf;
+	
+	
+}

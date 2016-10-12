@@ -1,0 +1,24 @@
+package br.com.solid.lsp.solucao;
+
+public class Teste {
+
+	public static void testCalculo(Retangulo ret){
+		
+		System.out.println("Calculo da Area do Retangulo");
+		System.out.println("Altura: ");
+		System.out.println(ret.Altura);
+		System.out.println(" Largura: ");
+		System.out.println(ret.largura);
+		System.out.println(" Area: ");
+		System.out.println(ret.CalularAREA());
+	}
+	
+	public static void main(String... args){
+		
+		Quadrado quad = new Quadrado();
+		quad.Altura = 10;
+		quad.largura = 5;
+		
+		Teste.testCalculo(quad);
+	}
+}

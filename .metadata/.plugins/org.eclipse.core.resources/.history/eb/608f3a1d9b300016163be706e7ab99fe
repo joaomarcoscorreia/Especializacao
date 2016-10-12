@@ -1,0 +1,37 @@
+package br.com.solid.dip.solucao;
+
+import br.com.solid.dip.solucao.interfaces.IDAO;
+
+public class DAOPessoa implements IDAO {
+
+	@Override
+	public void incluir() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void alterar() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void excluir() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Object consultarChavePrimaria() {
+		// TODO Auto-generated method stub
+		return Object;
+	}
+
+	@Override
+	public Object consultar(String filtro) {
+		// TODO Auto-generated method stub
+		return Object;
+	}
+
+}

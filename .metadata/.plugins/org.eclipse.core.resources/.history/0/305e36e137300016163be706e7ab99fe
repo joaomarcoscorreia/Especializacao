@@ -1,0 +1,8 @@
+package br.com.solid.lsp.solucao;
+
+public class Quadrado extends Retangulo {
+
+	public double CalcularQuadrado(){
+		return Altura*Altura;
+	}
+}

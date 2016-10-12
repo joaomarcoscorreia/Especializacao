@@ -1,0 +1,27 @@
+package br.com.solid.srp;
+
+public class ValidarPessoaSRP {
+
+	
+	public static boolean IsEmailValido(String pEmail){
+		boolean retorno = false;
+		
+		if(pEmail.contains("@")){
+			retorno = true;
+		}
+		
+		return retorno;
+	}
+	
+	public static boolean IsCPFValido(String pCPF){
+		boolean retorno = false;
+		
+		if(pCPF.length() == 11){
+			retorno = true;
+		}
+		
+		return retorno;
+	}
+	
+	
+}

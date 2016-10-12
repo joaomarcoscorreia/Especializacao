@@ -1,0 +1,40 @@
+package br.com.solid.srp;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class DAOPessoaSRP {
+
+public boolean IncluirPessoa(PessoaSRP pPessoa) throws Exception{
+		
+		if(!Pessoa.IsEmailValido(pPessoa.getEmail())){
+			throw new Exception("Email Invalido!!!");
+		}
+		if(!Pessoa.IsCPFValido(pPessoa.getCpf())){
+			throw new Exception("CPF Invalido!!!");
+		}
+		
+		Connection conexao = null;
+		
+		StringBuilder st = new StringBuilder();
+		st.append("INSERT INTO PESSOA(NOME,TELEFONE,CPF,EMAIL,TIPOPESSOA)");
+		st.append("VALUES('");
+		st.append(pPessoa.getNome());
+		st.append("',");
+		st.append(pPessoa.getTelefone());
+		st.append("','");
+		st.append(pPessoa.getCpf());
+		st.append("',");
+		st.append(pPessoa.getEmail());
+		st.append("','");
+		st.append(pPessoa.getNome());
+		st.append("',");
+		st.append(pPessoa.getTipoPessoa().getCodigo());
+		st.append("')");
+		
+		PreparedStatement ps = conexao.prepareStatement(st.toString());
+		
+		return ps.execute();
+		
+	}
+}
