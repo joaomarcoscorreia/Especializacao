@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Procurar Código no GitHub</string>
+    <string name="app_detalhe">Detalhes do Usuário</string>
+    <string name="label_user">Usuário</string>
+    <string name="label_email">Email</string>
+    <string name="label_blog">URL</string>
+    <string name="label_dt">Data da Criação</string>
+    <string name="bar_search">Digite que tipo de Código + linguagem (login,java)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

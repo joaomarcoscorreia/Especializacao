@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Search Code the  GitHub</string>
+    <string name="app_detalhe">User Details</string>
+    <string name="label_user">User</string>
+    <string name="label_email">E-mail</string>
+    <string name="label_blog">URL</string>
+    <string name="label_dt">Created Date</string>
+    <string name="bar_search">Enter the type code + language (login,java)</string>
+</resources>
