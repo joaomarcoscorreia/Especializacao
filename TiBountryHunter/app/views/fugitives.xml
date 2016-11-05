@@ -1,0 +1,13 @@
+<Alloy>
+		<Tab id='fugitiveTab'>
+			<Window >
+				<TableView onClick="showDetails">
+				<TableViewRow title='Erick'></TableViewRow>
+				<TableViewRow title='Correia'></TableViewRow>
+				<TableViewRow title='Joao'></TableViewRow>
+				<TableViewRow title='Marcos'></TableViewRow>
+				<TableViewRow title='Conde de Monte Cristo'></TableViewRow>
+				</TableView>
+			</Window>
+		</Tab>
+</Alloy>

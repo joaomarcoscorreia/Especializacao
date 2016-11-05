@@ -1,6 +1,4 @@
-"#fugitiveTab":{
-	title: L('fug')
-}
+
 "#captureTab":{
 	title:L('cat')
 	

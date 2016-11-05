@@ -1,15 +1,7 @@
 <Alloy>
 	<TabGroup>
-		<Tab id='fugitiveTab'>
-			<Window >
-				<Label >ABA 1</Label>
-			</Window>
-		</Tab>
-		<Tab id='captureTab'>
-			<Window >
-				<Label >ABA 2</Label>
-			</Window>
-		</Tab>
-		
+		<Require src='fugitives'></Require>
+		<Require src='capture'></Require>
+	
 	</TabGroup>
 </Alloy>
