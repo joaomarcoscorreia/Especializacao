@@ -1,0 +1,31 @@
+".container": {
+	backgroundColor:"white",
+	layout:"vertical",
+	top:30
+}
+
+"Label": {
+	width: Titanium.UI.FILL,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	top:5,
+	left:30,
+	elevation:2,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"TextField":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	backgroundColor:"#d5d5d5",
+	left:30,
+	right:30,
+	borderRadius:"3dp",
+    borderColor:"blue",
+    keyboardType: Ti.UI.KEYBOARD_EMAIL
+	
+}
+"#password":{
+	keyboardType: Ti.UI.KEYBOARD_NUMBER_PAD
+}
+

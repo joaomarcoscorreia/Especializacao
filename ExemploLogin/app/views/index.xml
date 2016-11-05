@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<Label>Email</Label>
+		<TextField id="email"></TextField>
+		<Label>Senha</Label>
+		<TextField id="password" passwordMask="true"></TextField>
+		<Button onClick="doClick">LOGIN</Button>
+		<AlertDialog id="alert" title="LOGIN" />
+	</Window>
+</Alloy>

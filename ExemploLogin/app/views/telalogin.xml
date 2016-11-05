@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class='Window'>
+		<TableView id='myTableView'>
+			
+		</TableView>
+		<Button onClick="close">Close</Button>
+	</Window>
+</Alloy>
